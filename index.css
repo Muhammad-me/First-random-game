@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: greenyellow;
+    text-align: center;
+    font-family: 'Joan', serif;
+}
+body > div{
+    margin: 150px auto;
+    width: 500px;
+    font-size: 25px;   
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    margin-top: 50px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+

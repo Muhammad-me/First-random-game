@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   text-align: center;
+   background-color: yellow;
+}
+.game{
+    display: flex;
+    height: 200px;
+    margin-top: 30px;
+}
+.game > div{
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+}
+div h1{
+    font-size: 90px;
+    line-height: 75px;
+}
+.H1{
+    margin-top: 30px;
+    font-size: 35px;
+}
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 20px;
+    margin: 30px auto 0;
+    cursor: pointer;
+}
+#top{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
