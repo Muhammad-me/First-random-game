@@ -7,11 +7,12 @@
 }
 .game{
     display: flex;
+    justify-content: center;
     height: 200px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .game > div{
-    width: 50%;
+    width: 30%;
     display: inline-block;
     justify-content: center;
 }
