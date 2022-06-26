@@ -10,22 +10,33 @@ body{
     font-family: 'Joan', serif;
 }
 body > div{
-    margin: 150px auto;
-    width: 500px;
-    font-size: 25px;   
+    margin: 9.765625vw auto;
+    width: 32.552083333333336vw;
+    font-size: 1.6276041666666667vw;   
 }
 button{
-    width: 150px;
-    height: 50px;
-    border-radius: 20px;
-    font-size: 20px;
+    width: 9.765625vw;
+    height: 3.2552083333333335vw;
+    border-radius: 1.3020833333333333vw;
+    font-size: 1.3020833333333333vw;
     border: none;
     background-color: black;
-    margin-top: 50px;
+    margin-top: 3.2552083333333335vw;
     cursor: pointer;
 }
 a{
     text-decoration: none;
     color: white;
+}
+@media screen and (max-width: 550px){
+    body > div{
+        width: 250px;
+        font-size: 12px;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
 }
 
